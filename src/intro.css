@@ -1,0 +1,106 @@
+.intro-intro {
+    width: 100vw;
+    height: 100vh;
+    /* display: flex;
+    overflow: hidden;
+    align-items: flex-start;
+    flex-shrink: 0; */
+    position: relative;
+    border-color: transparent;
+    background-color: rgba(76, 111, 203, 1);
+    background-image: url("./assets/img1.png");
+    background-repeat: no-repeat;
+    background-size: 400px;
+  }
+  .intro-text {
+    top: 245px;
+    left: 631px;
+    color: rgba(255, 255, 255, 1);
+    width: 591px;
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    align-self: auto;
+    font-style: SemiBold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 600;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .intro-untitled21 {
+    top: 8px;
+    left: 0px;
+    width: 476px;
+    height: 475px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-untitled22 {
+    top: -52px;
+    left: 650px;
+    width: 1566px;
+    height: 1562px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-i-m-a-g-e2 {
+    /* left: 28px; */
+    width: 150px;
+    /* bottom: 12px; */
+    height: 150px;
+    /* position: absolute; */
+    border-color: transparent;
+    margin:0 10px;
+  }
+  @media (max-width: 992px) {
+    .intro-i-m-a-g-e2 {
+      width: 100px;
+      height: 100px;
+    }
+    
+  }
+  .intro-i-m-a-g-e3 {
+    left: 219px;
+    width: 177px;
+    bottom: 12px;
+    height: 177px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-i-m-a-g-e4 {
+    left: 409px;
+    width: 177px;
+    bottom: 13px;
+    height: 177px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-i-m-a-g-e7 {
+    left: 602px;
+    width: 177px;
+    bottom: 13px;
+    height: 177px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-i-m-a-g-e8 {
+    left: 796px;
+    width: 177px;
+    bottom: 13px;
+    height: 177px;
+    position: absolute;
+    border-color: transparent;
+  }
+  .intro-i-m-a-g-e271 {
+    right: 277px;
+    width: 177px;
+    bottom: 13px;
+    height: 177px;
+    position: absolute;
+    border-color: transparent;
+  }
+  

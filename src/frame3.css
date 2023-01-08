@@ -1,0 +1,111 @@
+.frame3-frame3 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(20, 20, 20, 1);
+  }
+  .frame3-text {
+    top: 345px;
+    left: 21px;
+    color: rgba(255, 255, 255, 1);
+    width: 740px;
+    height: auto;
+    position: absolute;
+    font-size: 48px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .frame3-text02 {
+    color: rgba(255, 255, 255, 1);
+    right: -109px;
+    width: 740px;
+    bottom: 113px;
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    align-self: auto;
+    font-style: Bold;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .frame3-custom11 {
+    width: 400px;
+    height: 400px;
+  }
+  @media(max-width: 992px) {
+   .frame3-custom11 {
+      width: 250px;
+      height: 250px;
+    }
+  }
+  .frame3-text04 {
+    top: 439px;
+    left: 30px;
+    color: rgba(255, 255, 255, 1);
+    width: 740px;
+    height: auto;
+    position: absolute;
+    font-size: 24px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  @media(max-width: 991px) {
+    .frame3-text {
+      top: 332px;
+      left: -111px;
+    }
+    .frame3-custom11 {
+      top: 103px;
+      right: 26px;
+    }
+    .frame3-text04 {
+      top: 430px;
+      left: -113px;
+    }
+  }
+  @media(max-width: 479px) {
+    .frame3-text {
+      top: 31px;
+      left: -125px;
+    }
+    .frame3-text02 {
+      top: 387px;
+      left: -120px;
+    }
+    .frame3-custom11 {
+      top: 146px;
+      left: 102px;
+      width: 297px;
+      height: 232px;
+    }
+    .frame3-text04 {
+      top: 501px;
+      left: -118px;
+    }
+  }
+  

@@ -1,0 +1,85 @@
+.congrats1 {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-color: transparent;
+    background-color: rgba(185, 189, 174, 1);
+  }
+  .congrats-logo1 {
+    width: 705px;
+    height: 205px;
+    border-color: transparent;
+  }
+  .congrats-textnav{
+    top: 504px;
+    left: 355px;
+    color: rgba(255, 255, 255, 1);
+    width: 512px;
+    height: auto;
+    position: absolute;
+    font-size: 40px;
+    align-self: auto;
+    font-style: Regular;
+    text-align: center;
+    font-family: Montserrat;
+    font-weight: 400;
+    line-height: normal;
+    font-stretch: normal;
+    margin-right: 0;
+    margin-bottom: 0;
+    text-decoration: none;
+  }
+  .congrats-twitterlogo1 {
+    top: 506px;
+    left: 729px;
+    width: 66px;
+    height: 54px;
+    position: absolute;
+    border-color: transparent;
+  }
+  @media(max-width: 991px) {
+    .congrats-logo1 {
+      top: 260px;
+      right: 150px;
+    }
+    .congrats-text {
+      top: 486px;
+      left: 363px;
+    }
+    .congrats-twitterlogo1 {
+      top: 485px;
+      left: 759px;
+    }
+  }
+  @media(max-width: 767px) {
+    .congrats-logo1 {
+      top: 118px;
+      left: 29px;
+    }
+    .congrats-textnav{
+      top: 358px;
+      left: -68px;
+    }
+    .congrats-twitterlogo1 {
+      top: 485px;
+      right: -81px;
+      width: 274px;
+      height: 125px;
+    }
+  }
+  @media(max-width: 479px) {
+    .congrats-logo1 {
+      top: 79px;
+      left: 0px;
+      width: 479px;
+      height: 161px;
+    }
+    .congrats-textnav {
+      top: 254px;
+      left: -32px;
+    }
+  }
+  
