@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
-
+import "@fontsource/montserrat";
 import reportWebVitals from "./reportWebVitals";
 import Hero from "./App";
 import Intro from "./intro";
@@ -10,9 +10,9 @@ import Concept from "./concept";
 import Artist from "./artist";
 import Congrats from "./congrats";
 import Nav from "./Nav";
-import Metamaskconnected from "./metamaskconnected";
-import Processingtransaction from "./processingtransaction";
-import Final from "./final";
+// import Metamaskconnected from "./metamaskconnected";
+// import Processingtransaction from "./processingtransaction";
+// import Final from "./final";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,6 +24,9 @@ root.render(
     <Artist />
     <Congrats />
     <Nav />
+    {/* <Metamaskconnected />
+    <Processingtransaction />
+    <Final/> */}
   </React.StrictMode>
 );
 

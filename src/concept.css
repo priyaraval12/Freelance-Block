@@ -4,13 +4,17 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
+    font-family: Montserrat;
     justify-content: center;
     border-color: transparent;
     background-color: rgba(232, 170, 215, 1);
+    justify-content: space-between;
   }
   .concept-text-container {
-    width: 500px;
+    width: 600px;
     text-align: center;
+    margin-right:20vh;
+
   }
   .concept-text {
     font-style: SemiBold;
@@ -19,12 +23,13 @@
     font-weight: 600;
     color: #FFF;
     font-size: 35px;
+   
   }
   .concept-untitled21 {
     width: 476px;
     height: 475px;
     border-color: transparent;
-    margin-right: 20px;
+    margin-left:10vh;
   }
   @media(max-width: 991px) {
     .concept-text {

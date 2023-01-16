@@ -18,5 +18,4 @@ const Processingtransaction = (props) => {
     </div>
   )
 }
-
 export default Processingtransaction

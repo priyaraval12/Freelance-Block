@@ -11,7 +11,8 @@
   position: absolute;
   bottom: 0;
   left: 20px;
-  font-family: "Montserrat";
+  font-Family:Montserrat;
+  font-Weight: Black 900;
   font-style: normal;
   font-weight: 700;
   font-size: 128px;
@@ -21,8 +22,9 @@
   mix-blend-mode: normal;
 }
 .hero-transparentblock1 {
-  height: 300px;
-  width: 300px;
+  height: 330px;
+  width: 330px;
+  
 }
 .cube-container {
   display: flex;
@@ -30,13 +32,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  margin-top: 50px;
+  font-family:  Montserrat;
+  font-style: semi-bold;
+  margin-top:10vh;
 }
 .cube-connect {
   /* position: absolute;
     bottom: 100px; */
   margin-top: 40px;
-  border: 2px solid #000;
+  border: 3px solid #000;
   background-color: #fff;
   /* padding: 5px 25px; */
   width: 150px;

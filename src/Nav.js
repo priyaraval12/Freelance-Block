@@ -13,32 +13,18 @@ const Nav = (props) => {
           src={img1}
           className="congrats-logo1"
         />
-        {/* <span className="congrats-textnav">
-          <span>
-            Join us on
-            <span
-              dangerouslySetInnerHTML={{
-                __html: ' ',
-              }}
-            />
-          </span>
-        </span>
-        <img
-          alt="Twitterlogo12224"
-          src={img2}
-          className="congrats-twitterlogo1"
-        /> */}
         <div style={{
           display: 'flex',
           justifyContent: 'center',
           alignItems: 'center',
           marginTop: 20
+        
         }}>
-          <span style={{
+          <a href='https://twitter.com/harto_fr' style={{
             fontSize: 40,
             color:"#FFF",
             marginRight: 20
-          }}>Join us on</span>
+          }}>Join us on</a>
           <img
           // alt="Twitterlogo12224"
           src={img2}

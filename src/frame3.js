@@ -16,7 +16,7 @@ const Frame3 = (props) => {
         }}>
             <span style={{
               color:"#FFF",
-              fontSize:40,
+              fontSize:48,
               textAlign:'center',
               fontWeight:'bold',
             }}>1 BLOCK = 1 BLOCK</span>

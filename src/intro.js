@@ -13,11 +13,15 @@ const Intro = (props) => {
       <div className="intro-intro">
         <div
           style={{
-            width: 500,
+            width: 400,
             textAlign: "center",
             position: "absolute",
-            right: 100,
-            top: 100,
+            right: 200,
+            left: 631,
+            fontSize:40,
+            fontFamily:"Montserrat",
+            fontWeight: "bold",
+            top: 130,
           }}
         >
           <span

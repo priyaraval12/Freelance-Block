@@ -1,39 +1,33 @@
 .final-final {
-    width: 100%;
-    height: 768px;
+    width: 100vw;
+    height: 100vh;
     display: flex;
-    overflow: hidden;
     position: relative;
-    align-items: flex-start;
-    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
     border-color: transparent;
     background-color: rgba(185, 189, 174, 1);
   }
   .final-text {
-    top: 524px;
-    left: 340px;
     color: rgba(255, 255, 255, 1);
-    width: 685px;
-    height: auto;
+    /* background-color: red; */
+    justify-content: center;
+    display: flex;
     position: absolute;
-    font-size: 68px;
-    align-self: auto;
+    font-size: 50px;
     font-style: SemiBold;
     text-align: center;
+    margin-top: 50vh;
     font-family: Montserrat;
     font-weight: 600;
-    line-height: normal;
-    font-stretch: normal;
-    margin-right: 0;
-    margin-bottom: 0;
-    text-decoration: none;
   }
   .final-b-l-o-c-k1 {
-    top: 83px;
-    left: 463px;
     width: 508px;
-    height: 520px;
-    position: absolute;
+    height: 500px;
     border-color: transparent;
+    display: flex;
+    /* background-color: yellow; */
+    justify-content: center;
+    align-items: center;
   }
   

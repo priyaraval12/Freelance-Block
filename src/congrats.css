@@ -3,6 +3,8 @@
     height: 100vh;
     display: flex;
     flex-direction: column;
+    font-family: Montserrat;
+    font-style: solid 400;
     /* justify-content: center; */
     align-items: flex-start;
     border-color: transparent;
@@ -11,11 +13,12 @@
   .congrats-text {
     color: rgba(255, 255, 255, 1);
     font-size: 40px;
-    font-style: SemiBold;
+    font-style: Bold;
     text-align: center;
     font-family: Montserrat;
     font-weight: 600;
-    margin-top: 50px;
+    margin-top: 80px;
+    padding-left: 15vh;
   }
   .congrats-text02 {
     color: rgba(255, 255, 255, 1);

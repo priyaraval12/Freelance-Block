@@ -1,7 +1,8 @@
-import React from "react";
+import React  from "react";
 import "./hero.css";
 import img from "./assets/transparent.png";
-import img1 from "./assets/Rectangle.png";
+import "@fontsource/montserrat";
+
 
 const Hero = (props) => {
   return (
@@ -21,6 +22,7 @@ const Hero = (props) => {
                 fontWeight: "bold",
                 cursor: "pointer",
               }}
+             
             >
               connect
             </span>

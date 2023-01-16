@@ -12,7 +12,7 @@ const Congrats = (props) => {
         <span className="congrats-text">
           Team and collaborators
         </span>
-        <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', marginTop: 80}}>
+        <div style={{width:'100%', display:'flex', justifyContent:'center', alignItems:'center', marginTop: 80 }}>
         <div style={{
           display: 'flex',
           flexDirection: 'column',

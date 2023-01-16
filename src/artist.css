@@ -13,7 +13,10 @@
     justify-content: center;
     align-items: flex-start;
     width: 387px;
-    margin: 0 100px;
+    height: auto;
+    font-size:16px;
+    font-family: Montserrat;
+    margin: 0 120px;  
   }
   .artist-text11 {
     top: 110px;
@@ -35,10 +38,10 @@
     text-decoration: none;
   }
   .artist-hartotransparent1 {
-    width: 380px;
-    height: 380px;
+    width: 469px;
+    height: 469px;
     border-color: transparent;
-    margin-left: 110px;
+    margin-left: 200px;
   }
   .artist-text13 {
     top: 170px;
